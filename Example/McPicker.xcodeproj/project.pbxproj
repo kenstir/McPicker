@@ -15,6 +15,11 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* McPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* McPickerTests.swift */; };
 		D1E12A0ABE0D9540DA0C439E /* Pods_McPicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6C05EDB200F71455915F2A /* Pods_McPicker_Example.framework */; };
+		D279915920DEBB49003B451E /* McPicker_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D279915020DEBB48003B451E /* McPicker_iOS.framework */; };
+		D279916020DEBB49003B451E /* McPicker_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279915F20DEBB49003B451E /* McPicker_iOSTests.swift */; };
+		D279916220DEBB49003B451E /* McPicker_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D279915220DEBB49003B451E /* McPicker_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D279916520DEBB49003B451E /* McPicker_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D279915020DEBB48003B451E /* McPicker_iOS.framework */; };
+		D279916620DEBB49003B451E /* McPicker_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D279915020DEBB48003B451E /* McPicker_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E7E851651F6B755400BC6A21 /* McPickerBarButtonItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E851631F6B736000BC6A21 /* McPickerBarButtonItemTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +31,42 @@
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = McPicker;
 		};
+		D279915A20DEBB49003B451E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D279914F20DEBB48003B451E;
+			remoteInfo = "McPicker-iOS";
+		};
+		D279915C20DEBB49003B451E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = McPicker_Example;
+		};
+		D279916320DEBB49003B451E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D279914F20DEBB48003B451E;
+			remoteInfo = "McPicker-iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D279916C20DEBB49003B451E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D279916620DEBB49003B451E /* McPicker_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		13F1E9E3B1DD507A28FA5481 /* Pods-McPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McPicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-McPicker_Example/Pods-McPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -45,6 +85,12 @@
 		607FACEB1AFB9204008FA782 /* McPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McPickerTests.swift; sourceTree = "<group>"; };
 		72A6ECE6754F0D53A01840EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ABDF864FC68406B6ADCF5DB4 /* Pods-McPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-McPicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-McPicker_Tests/Pods-McPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D279915020DEBB48003B451E /* McPicker_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = McPicker_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D279915220DEBB49003B451E /* McPicker_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = McPicker_iOS.h; sourceTree = "<group>"; };
+		D279915320DEBB49003B451E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D279915820DEBB49003B451E /* McPicker-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "McPicker-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D279915F20DEBB49003B451E /* McPicker_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McPicker_iOSTests.swift; sourceTree = "<group>"; };
+		D279916120DEBB49003B451E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9855A22F5DA80A1D2B923E0 /* Pods_McPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_McPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E851631F6B736000BC6A21 /* McPickerBarButtonItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = McPickerBarButtonItemTests.swift; sourceTree = "<group>"; };
 		EC9DECD62B7A481490DA18FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -56,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D279916520DEBB49003B451E /* McPicker_iOS.framework in Frameworks */,
 				D1E12A0ABE0D9540DA0C439E /* Pods_McPicker_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +112,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F8731B04CDE1C751E1C27C7 /* Pods_McPicker_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D279914C20DEBB48003B451E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D279915520DEBB49003B451E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D279915920DEBB49003B451E /* McPicker_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +150,8 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for McPicker */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				D279915120DEBB49003B451E /* McPicker-iOS */,
+				D279915E20DEBB49003B451E /* McPicker-iOSTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				275A85FB4FEA0D19B56B1700 /* Pods */,
 				BB0E35FD0F2415E4850D9AB5 /* Frameworks */,
@@ -99,6 +163,8 @@
 			children = (
 				607FACD01AFB9204008FA782 /* McPicker_Example.app */,
 				607FACE51AFB9204008FA782 /* McPicker_Tests.xctest */,
+				D279915020DEBB48003B451E /* McPicker_iOS.framework */,
+				D279915820DEBB49003B451E /* McPicker-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,7 +228,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D279915120DEBB49003B451E /* McPicker-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D279915220DEBB49003B451E /* McPicker_iOS.h */,
+				D279915320DEBB49003B451E /* Info.plist */,
+			);
+			path = "McPicker-iOS";
+			sourceTree = "<group>";
+		};
+		D279915E20DEBB49003B451E /* McPicker-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D279915F20DEBB49003B451E /* McPicker_iOSTests.swift */,
+				D279916120DEBB49003B451E /* Info.plist */,
+			);
+			path = "McPicker-iOSTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D279914D20DEBB48003B451E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D279916220DEBB49003B451E /* McPicker_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		607FACCF1AFB9204008FA782 /* McPicker_Example */ = {
@@ -176,10 +271,12 @@
 				C47D12FBF936BCA4F2FC5DF5 /* [CP] Embed Pods Frameworks */,
 				973D169A1B9454CE644A8880 /* [CP] Copy Pods Resources */,
 				7218E36A1F0EA822003423A2 /* ShellScript */,
+				D279916C20DEBB49003B451E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D279916420DEBB49003B451E /* PBXTargetDependency */,
 			);
 			name = McPicker_Example;
 			productName = McPicker;
@@ -207,13 +304,50 @@
 			productReference = 607FACE51AFB9204008FA782 /* McPicker_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D279914F20DEBB48003B451E /* McPicker-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D279916B20DEBB49003B451E /* Build configuration list for PBXNativeTarget "McPicker-iOS" */;
+			buildPhases = (
+				D279914B20DEBB48003B451E /* Sources */,
+				D279914C20DEBB48003B451E /* Frameworks */,
+				D279914D20DEBB48003B451E /* Headers */,
+				D279914E20DEBB48003B451E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "McPicker-iOS";
+			productName = "McPicker-iOS";
+			productReference = D279915020DEBB48003B451E /* McPicker_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D279915720DEBB49003B451E /* McPicker-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D279916D20DEBB49003B451E /* Build configuration list for PBXNativeTarget "McPicker-iOSTests" */;
+			buildPhases = (
+				D279915420DEBB49003B451E /* Sources */,
+				D279915520DEBB49003B451E /* Frameworks */,
+				D279915620DEBB49003B451E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D279915B20DEBB49003B451E /* PBXTargetDependency */,
+				D279915D20DEBB49003B451E /* PBXTargetDependency */,
+			);
+			name = "McPicker-iOSTests";
+			productName = "McPicker-iOSTests";
+			productReference = D279915820DEBB49003B451E /* McPicker-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -224,6 +358,16 @@
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					D279914F20DEBB48003B451E = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					D279915720DEBB49003B451E = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = FCHUE4234N;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -243,6 +387,8 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* McPicker_Example */,
 				607FACE41AFB9204008FA782 /* McPicker_Tests */,
+				D279914F20DEBB48003B451E /* McPicker-iOS */,
+				D279915720DEBB49003B451E /* McPicker-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,6 +405,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D279914E20DEBB48003B451E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D279915620DEBB49003B451E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -404,6 +564,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D279914B20DEBB48003B451E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D279915420DEBB49003B451E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D279916020DEBB49003B451E /* McPicker_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -411,6 +586,21 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* McPicker_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		D279915B20DEBB49003B451E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D279914F20DEBB48003B451E /* McPicker-iOS */;
+			targetProxy = D279915A20DEBB49003B451E /* PBXContainerItemProxy */;
+		};
+		D279915D20DEBB49003B451E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* McPicker_Example */;
+			targetProxy = D279915C20DEBB49003B451E /* PBXContainerItemProxy */;
+		};
+		D279916420DEBB49003B451E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D279914F20DEBB48003B451E /* McPicker-iOS */;
+			targetProxy = D279916320DEBB49003B451E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -539,6 +729,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = McPicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -558,6 +749,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = McPicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -603,6 +795,132 @@
 			};
 			name = Release;
 		};
+		D279916720DEBB49003B451E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "McPicker-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kenstir.net.McPicker-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D279916820DEBB49003B451E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "McPicker-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kenstir.net.McPicker-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D279916920DEBB49003B451E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FCHUE4234N;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "McPicker-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kenstir.net.McPicker-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/McPicker_Example.app/McPicker_Example";
+			};
+			name = Debug;
+		};
+		D279916A20DEBB49003B451E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FCHUE4234N;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "McPicker-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kenstir.net.McPicker-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/McPicker_Example.app/McPicker_Example";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -629,6 +947,24 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D279916B20DEBB49003B451E /* Build configuration list for PBXNativeTarget "McPicker-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D279916720DEBB49003B451E /* Debug */,
+				D279916820DEBB49003B451E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D279916D20DEBB49003B451E /* Build configuration list for PBXNativeTarget "McPicker-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D279916920DEBB49003B451E /* Debug */,
+				D279916A20DEBB49003B451E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -52,6 +52,16 @@
                ReferencedContainer = "container:McPicker.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D279915720DEBB49003B451E"
+               BuildableName = "McPicker-iOSTests.xctest"
+               BlueprintName = "McPicker-iOSTests"
+               ReferencedContainer = "container:McPicker.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D27991AA20DECD8E003B451E /* McPicker_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27991A020DECD8E003B451E /* McPicker_iOS.framework */; };
+		D27991AA20DECD8E003B451E /* McPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27991A020DECD8E003B451E /* McPicker.framework */; };
 		D27991AF20DECD8E003B451E /* McPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27991AE20DECD8E003B451E /* McPickerTests.swift */; };
 		D27991B120DECD8E003B451E /* McPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D27991A320DECD8E003B451E /* McPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D27991BB20DECEB9003B451E /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = D27991BA20DECEB9003B451E /* Classes */; };
@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D27991A020DECD8E003B451E /* McPicker_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = McPicker_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27991A020DECD8E003B451E /* McPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = McPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27991A320DECD8E003B451E /* McPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = McPicker.h; sourceTree = "<group>"; };
 		D27991A420DECD8E003B451E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D27991A920DECD8E003B451E /* McPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = McPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D27991AA20DECD8E003B451E /* McPicker_iOS.framework in Frameworks */,
+				D27991AA20DECD8E003B451E /* McPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,7 @@
 		D27991A120DECD8E003B451E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D27991A020DECD8E003B451E /* McPicker_iOS.framework */,
+				D27991A020DECD8E003B451E /* McPicker.framework */,
 				D27991A920DECD8E003B451E /* McPickerTests.xctest */,
 			);
 			name = Products;
@@ -118,7 +118,7 @@
 			);
 			name = "McPicker iOS";
 			productName = McPicker;
-			productReference = D27991A020DECD8E003B451E /* McPicker_iOS.framework */;
+			productReference = D27991A020DECD8E003B451E /* McPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D27991A820DECD8E003B451E /* McPickerTests */ = {
@@ -356,7 +356,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.McPicker;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = McPicker;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -380,7 +380,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.McPicker;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = McPicker;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "0940"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "McPicker_Example.app"
-               BlueprintName = "McPicker_Example"
-               ReferencedContainer = "container:McPicker.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "McPicker_Tests.xctest"
-               BlueprintName = "McPicker_Tests"
+               BlueprintIdentifier = "D279914F20DEBB48003B451E"
+               BuildableName = "McPicker_iOS.framework"
+               BlueprintName = "McPicker iOS"
                ReferencedContainer = "container:McPicker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,36 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "McPicker_Tests.xctest"
-               BlueprintName = "McPicker_Tests"
-               ReferencedContainer = "container:McPicker.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D279915720DEBB49003B451E"
-               BuildableName = "McPicker-iOSTests.xctest"
-               BlueprintName = "McPicker-iOSTests"
-               ReferencedContainer = "container:McPicker.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "McPicker_Example.app"
-            BlueprintName = "McPicker_Example"
-            ReferencedContainer = "container:McPicker.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -85,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "McPicker_Example.app"
-            BlueprintName = "McPicker_Example"
+            BlueprintIdentifier = "D279914F20DEBB48003B451E"
+            BuildableName = "McPicker_iOS.framework"
+            BlueprintName = "McPicker iOS"
             ReferencedContainer = "container:McPicker.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -104,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "McPicker_Example.app"
-            BlueprintName = "McPicker_Example"
+            BlueprintIdentifier = "D279914F20DEBB48003B451E"
+            BuildableName = "McPicker_iOS.framework"
+            BlueprintName = "McPicker iOS"
             ReferencedContainer = "container:McPicker.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

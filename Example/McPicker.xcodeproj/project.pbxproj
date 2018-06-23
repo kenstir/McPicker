@@ -15,8 +15,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* McPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* McPickerTests.swift */; };
 		D1E12A0ABE0D9540DA0C439E /* Pods_McPicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6C05EDB200F71455915F2A /* Pods_McPicker_Example.framework */; };
-		D279915920DEBB49003B451E /* McPicker_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D279915020DEBB48003B451E /* McPicker_iOS.framework */; };
-		D279916020DEBB49003B451E /* McPicker_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D279915F20DEBB49003B451E /* McPicker_iOSTests.swift */; };
 		D279916220DEBB49003B451E /* McPicker_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D279915220DEBB49003B451E /* McPicker_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D279916520DEBB49003B451E /* McPicker_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D279915020DEBB48003B451E /* McPicker_iOS.framework */; };
 		D279916620DEBB49003B451E /* McPicker_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D279915020DEBB48003B451E /* McPicker_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -30,20 +28,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = McPicker;
-		};
-		D279915A20DEBB49003B451E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D279914F20DEBB48003B451E;
-			remoteInfo = "McPicker-iOS";
-		};
-		D279915C20DEBB49003B451E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = McPicker_Example;
 		};
 		D279916320DEBB49003B451E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -88,7 +72,6 @@
 		D279915020DEBB48003B451E /* McPicker_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = McPicker_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D279915220DEBB49003B451E /* McPicker_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = McPicker_iOS.h; sourceTree = "<group>"; };
 		D279915320DEBB49003B451E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D279915820DEBB49003B451E /* McPicker-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "McPicker-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D279915F20DEBB49003B451E /* McPicker_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McPicker_iOSTests.swift; sourceTree = "<group>"; };
 		D279916120DEBB49003B451E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9855A22F5DA80A1D2B923E0 /* Pods_McPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_McPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,14 +102,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D279915520DEBB49003B451E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D279915920DEBB49003B451E /* McPicker_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +139,6 @@
 				607FACD01AFB9204008FA782 /* McPicker_Example.app */,
 				607FACE51AFB9204008FA782 /* McPicker_Tests.xctest */,
 				D279915020DEBB48003B451E /* McPicker_iOS.framework */,
-				D279915820DEBB49003B451E /* McPicker-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -304,9 +278,9 @@
 			productReference = 607FACE51AFB9204008FA782 /* McPicker_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D279914F20DEBB48003B451E /* McPicker-iOS */ = {
+		D279914F20DEBB48003B451E /* McPicker iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D279916B20DEBB49003B451E /* Build configuration list for PBXNativeTarget "McPicker-iOS" */;
+			buildConfigurationList = D279916B20DEBB49003B451E /* Build configuration list for PBXNativeTarget "McPicker iOS" */;
 			buildPhases = (
 				D279914B20DEBB48003B451E /* Sources */,
 				D279914C20DEBB48003B451E /* Frameworks */,
@@ -317,29 +291,10 @@
 			);
 			dependencies = (
 			);
-			name = "McPicker-iOS";
+			name = "McPicker iOS";
 			productName = "McPicker-iOS";
 			productReference = D279915020DEBB48003B451E /* McPicker_iOS.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		D279915720DEBB49003B451E /* McPicker-iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D279916D20DEBB49003B451E /* Build configuration list for PBXNativeTarget "McPicker-iOSTests" */;
-			buildPhases = (
-				D279915420DEBB49003B451E /* Sources */,
-				D279915520DEBB49003B451E /* Frameworks */,
-				D279915620DEBB49003B451E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D279915B20DEBB49003B451E /* PBXTargetDependency */,
-				D279915D20DEBB49003B451E /* PBXTargetDependency */,
-			);
-			name = "McPicker-iOSTests";
-			productName = "McPicker-iOSTests";
-			productReference = D279915820DEBB49003B451E /* McPicker-iOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -364,12 +319,6 @@
 						CreatedOnToolsVersion = 9.4.1;
 						ProvisioningStyle = Automatic;
 					};
-					D279915720DEBB49003B451E = {
-						CreatedOnToolsVersion = 9.4.1;
-						DevelopmentTeam = FCHUE4234N;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 607FACCF1AFB9204008FA782;
-					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "McPicker" */;
@@ -387,8 +336,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* McPicker_Example */,
 				607FACE41AFB9204008FA782 /* McPicker_Tests */,
-				D279914F20DEBB48003B451E /* McPicker-iOS */,
-				D279915720DEBB49003B451E /* McPicker-iOSTests */,
+				D279914F20DEBB48003B451E /* McPicker iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -412,13 +360,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D279914E20DEBB48003B451E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D279915620DEBB49003B451E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -571,14 +512,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D279915420DEBB49003B451E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D279916020DEBB49003B451E /* McPicker_iOSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -587,19 +520,9 @@
 			target = 607FACCF1AFB9204008FA782 /* McPicker_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
-		D279915B20DEBB49003B451E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D279914F20DEBB48003B451E /* McPicker-iOS */;
-			targetProxy = D279915A20DEBB49003B451E /* PBXContainerItemProxy */;
-		};
-		D279915D20DEBB49003B451E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* McPicker_Example */;
-			targetProxy = D279915C20DEBB49003B451E /* PBXContainerItemProxy */;
-		};
 		D279916420DEBB49003B451E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D279914F20DEBB48003B451E /* McPicker-iOS */;
+			target = D279914F20DEBB48003B451E /* McPicker iOS */;
 			targetProxy = D279916320DEBB49003B451E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -865,62 +788,6 @@
 			};
 			name = Release;
 		};
-		D279916920DEBB49003B451E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = FCHUE4234N;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "McPicker-iOSTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "kenstir.net.McPicker-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/McPicker_Example.app/McPicker_Example";
-			};
-			name = Debug;
-		};
-		D279916A20DEBB49003B451E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FCHUE4234N;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "McPicker-iOSTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "kenstir.net.McPicker-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/McPicker_Example.app/McPicker_Example";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -951,20 +818,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D279916B20DEBB49003B451E /* Build configuration list for PBXNativeTarget "McPicker-iOS" */ = {
+		D279916B20DEBB49003B451E /* Build configuration list for PBXNativeTarget "McPicker iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D279916720DEBB49003B451E /* Debug */,
 				D279916820DEBB49003B451E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D279916D20DEBB49003B451E /* Build configuration list for PBXNativeTarget "McPicker-iOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D279916920DEBB49003B451E /* Debug */,
-				D279916A20DEBB49003B451E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
